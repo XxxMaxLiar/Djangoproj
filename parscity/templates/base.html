@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}
+        Base Title
+    {% endblock title %}</title>
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+    </ul>    
+</nav>
+{% block body %}
+Base Body!
+{% endblock body %}
+<footer>
+    &copy; Саша Уренцев
+</footer>
+
+</body>
+</html>
